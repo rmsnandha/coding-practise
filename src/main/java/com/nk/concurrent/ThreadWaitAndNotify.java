@@ -1,4 +1,4 @@
-package com.nk.java5.concurrent;
+package com.nk.concurrent;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

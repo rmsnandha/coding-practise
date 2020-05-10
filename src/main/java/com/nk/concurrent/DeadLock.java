@@ -1,4 +1,4 @@
-package com.nk.thread;
+package com.nk.concurrent;
 
 import java.util.ArrayList;
 import java.util.List;

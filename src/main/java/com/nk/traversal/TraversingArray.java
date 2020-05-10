@@ -1,4 +1,4 @@
-package com.nk.data.traversal;
+package com.nk.traversal;
 
 public class TraversingArray {
 
