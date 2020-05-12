@@ -1,27 +1,24 @@
 package com.nk.generics;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Generics {
 	
 	public static void main(String[] args) {
+		System.out.println(Arrays.toString(removeDuplicate(new String[] {"A" , "A" , "C" , "D" , "A"} )));
 		
 		
-		
-		List<Number>  a =  new ArrayList<>();
-		
-		
-		
-		a.add(1);
-		a.add(2.2f);
-		
-		
-		for (Number number : a) {
-			System.out.println(number);
+	}
+
+
+	public  static <T>  T[] removeDuplicate(T[] data) {
+		Set<T>  set = new LinkedHashSet<T>();
+
+		for ( T t: data ) {
+			set.add(t);
 		}
-		
-		
+
+		return (T[]) set.toArray();
 	}
 	
 }
