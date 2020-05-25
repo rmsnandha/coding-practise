@@ -1,21 +1,25 @@
 package com.nk.logic;
 
-import com.nk.java8.StreamsPractise;
-
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class Fibo {
 
+
     public static void main(String[] args) {
+
+        Arrays.asList(1, 2, 3, 4, 5, 6).parallelStream().map(i-> i * i).sorted().forEach(System.out::println);
+
+
+        /*
 
 
         System.out.println(fibRecursive(BigInteger.valueOf(40)));
         System.out.println(fibRecursive(40));
         System.out.println(forLoop(40));
         System.out.println(streamIterate(40));
-
+*/
     }
 
 
