@@ -1,4 +1,4 @@
-package com.nk.logic;
+package com.nk.algo;
 
 import lombok.Data;
 import lombok.ToString;
@@ -24,7 +24,7 @@ public class ComparatorMain {
 
     public static void main(String[] args) {
 
-        Comparator<Info> fist = (o1, o2) -> {
+        Comparator<Info> first = (o1, o2) -> {
             System.out.println(" first comparator");
             return o1.fitsName.compareTo(o2.fitsName);
         };
@@ -34,7 +34,7 @@ public class ComparatorMain {
             return o1.lastName.compareTo(o2.lastName);
         };
 
-        fist.thenComparing(second);
+        first.thenComparing(second);
 
 
         Stream<Info> sorted = Arrays.asList(new Info("X", "B"), new Info("B", "C")).stream()

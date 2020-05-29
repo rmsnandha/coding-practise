@@ -1,4 +1,4 @@
-package com.nk.logic;
+package com.nk.algo;
 
 import java.math.BigInteger;
 import java.util.Arrays;
