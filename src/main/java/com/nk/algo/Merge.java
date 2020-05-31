@@ -3,8 +3,14 @@ import java.util.Arrays;
 public class Merge {
 
     public static void main(String[] args) {
-        merge(new int[]{1, 3, 5 , 7}, new int[]{2, 4, 6});
-        merge(new int[]{1, 3, 5 , 8 }, new int[]{2, 4, 6 , 7});
+       // merge(new int[]{1, 3, 5 , 7}, new int[]{2, 4, 6});
+        //merge(new int[]{1, 3, 5 , 8 }, new int[]{2, 4, 6 , 7});
+
+
+        int i = -10;
+        System.out.println(100>>>1);
+
+
     }
     public static void merge(int[] a1, int[] a2) {
         int[] result = new int[a1.length + a2.length];
